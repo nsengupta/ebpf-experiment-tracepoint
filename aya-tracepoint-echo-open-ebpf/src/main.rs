@@ -44,12 +44,8 @@ fn try_aya_tracepoint_echo_open(ctx: TracePointContext) -> Result<u32, i64> {
                 }
             )
         };
-
         
-
-        {
-            info!(&ctx, "tracepoint sys_enter_openat called, filename  {}", filename);
-        }  
+        info!(&ctx, "tracepoint sys_enter_openat called, filename  {}", filename);  
         
     }
    
