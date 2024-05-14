@@ -1,4 +1,12 @@
+
 # aya-tracepoint-echo-open
+
+This is an experimentation with eBPF tracepoint, using smaller stack variable.
+The intention is to understand the logic of copying data from kernel-space to user-space.
+The original code is generated using Rust-Aya 0.1.0 and then modified to help   in experimentation.
+
+
+
 
 ## Prerequisites
 
